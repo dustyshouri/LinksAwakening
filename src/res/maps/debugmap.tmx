@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="32" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="Name" value="Debug"/>
+ </properties>
+ <tileset firstgid="1" name="OverworldTiles" tilewidth="16" tileheight="16">
+  <image source="images/la_overworldtiles.png"/>
+ </tileset>
+ <tileset firstgid="601" name="Mobs" tilewidth="16" tileheight="16">
+  <image source="images/la_mob-icons.png"/>
+ </tileset>
+ <layer name="Layer 1" width="40" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Xv09UQRDHd7HSA39EGrW6IBSWWBhQKxIDdOpZYu+PmBirx8UCUfvjYgGKFlZ3F+Iv0H/A35KYsyPhFDEhoTQRRQp1Jm8mbxx3H/vuLCxM7pPdt/t297uzM/P2xqwxY8AkMEvMA1PUrjkOnFCcpPFTaq60eXxMqjHnM9IFNEzMWyrzTcwTyhngbAZQH+tqCH1Z5kjjHHBFwPZYFTZZgLZ7UK4R96nvELAf+rYpuoEi9D0AHjZRHrNJ/brSyPZYJV1sk/fUhiyaeP0IKMA740APgfVTwCDwCvpfG3c5CUw5SuzvFWMjpZHtkVN21PoqwGd4ZwLKUVEfhrIKZU2dOe65TrapezSznqIYVwJWhMYC2YHPmW34AnhGvKSxUqPWpNdh6tSHe4psXE7Q2EjUG2KNKoF+PUOgvgWlkeNAnnvFYSvZrmOHNUh4PNqq7JhLxp3Ut2L88FqjdKbDFBOoPTLJs16jRHaT+vg9317T9P1wsCLWGrAx8DNtwBbRFlm37apURh5f/Vv6ItKBz3uAvcA+6sf2mtC1leJuB7AT2O3IS9w/Ivpz5KPFTfTVU+yHz73AQSpZn7RZXuSgHspBMwF00TnUmtBXFvqQIVEfoPgq0fk9cazd0fY7T02cH56b5J05cQ5Zz3fQJr52l/SdFm38DpaPPfouCp2LJsm12H+BaMb/0DYVk+TnIunTua9C9TsB9vti4u/nV2G/aZEHsuYX1oj+URb6dJ6oqLl9+iTa/1zxERLzUs9QyphW9E2Qr+Mc7UA/cNgm95U1WjsEl7YoMD5c+uZskivzpPcnPL8DLtkEXHvRsTbvR9KhdGIMs6+H5BTJbcoBnKPS9C1D2yNgVpR438kJPZiHu8n27aS14omPEKZt8h1Efa77Zifp24B33gDzoiyoMagNc+83E+81b/3+F5qf+ZvN9sO5NUPUvmRiOy6LPr6T9QhtWl+fOP8Rh0/0e/oxDvg+ofUtOfQhG4Tewwf1zPowP3KODM0JfDeSdzCpT3/Pd9n4m53z2HfdoRPn6vPYSMdQSLxJffp7zvjO34XLl6WfusZcdbx7TWjaTB+vKe9JnZ61pF8esH/eX0L3yWh947gfE+cbptDkOvifbCmjHmY7+ZXML2j/m9B3S/k91lm3jiEf6xm0fHLUP5KvoKYjZJejKXZh3SEx0qpe5LuJdaGmgji3y/8QBdJ04z8t8Qt87ba/ABQAAA==
+  </data>
+ </layer>
+ <layer name="New Layer" width="40" height="32" opacity="0.3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwQkAQAgDQbnO7L8pW9DfESaQ78D2q+rFt9tYPB6P94OX0sHj8XhXL6WDx+Pxrl5KB4/H4129AZGZQBgAFAAA
+  </data>
+ </layer>
+ <layer name="Mobs" width="40" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VwQkAIAwDwOKW7r+IM4hCNdxNkJBHqoBb5uhOsO/HzACQwAe/LWWflB4AnFmwbpU8ABQAAA==
+  </data>
+ </layer>
+ <objectgroup name="Songs" width="40" height="32">
+  <object name="" x="0" y="0" width="640" height="128">
+   <properties>
+    <property name="song" value="la_taltal.mid"/>
+   </properties>
+  </object>
+  <object name="" x="0" y="128" width="160" height="256">
+   <properties>
+    <property name="song" value="la_overworld.mid"/>
+   </properties>
+  </object>
+  <object name="" x="160" y="128" width="160" height="128">
+   <properties>
+    <property name="song" value="la_mabe.mid"/>
+   </properties>
+  </object>
+  <object name="" x="0" y="384" width="640" height="128">
+   <properties>
+    <property name="song" value="la_rapids.mid"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
